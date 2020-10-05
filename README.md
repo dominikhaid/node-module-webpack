@@ -22,6 +22,6 @@ This module is developed to extend our base server. It can be easily installed w
 > 
 > cd my-app
 > 
-> npm run plguin p=https://github.com/dominikhaid/node-module-webpack.git
+> npm run plugin p=https://github.com/dominikhaid/node-module-webpack.git
 > 
 > npm run dev
