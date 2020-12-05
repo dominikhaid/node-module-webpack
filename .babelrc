@@ -1,7 +1,7 @@
 {
   "presets": [
     [
-      "react/babel",
+      "react",
       {
         "preset-env": {},
         "transform-runtime": {},
