@@ -1,18 +1,18 @@
-import "../../../public/less/style.less";
+import '../../../public/less/style.less';
 //import "../../../public/scss/style.scss";
 //import '../../../public/css/style.css';
 
 function component() {
-	const element = document.querySelector("#root");
+  const element = document.querySelector('#root');
 
-	element.innerHTML = "<p>Hello :D webpack</p>";
-	element.classList.add("hello");
+  element.innerHTML = '<p>Hello :D webpack</p>';
+  element.classList.add('hello');
 
-	return element;
+  return element;
 }
 
 if (module.hot) {
-	module.hot.accept();
+  module.hot.accept();
 }
 
 // navigator.serviceWorker.getRegistrations().then(function (registrations) {
